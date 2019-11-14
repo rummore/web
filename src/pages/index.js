@@ -18,7 +18,7 @@ const IndexPage = ({data}) => (
         <Col lg={6} className="py-5">
         <br></br>
         <h3 className="text-center">¿Qué hacemos?</h3>
-          <p class="text-center lead">Creamos ideas, websites y videos para que nuestros clientes muestren las ventajas de sus productos y / o servicios.</p>
+          <p class="text-center lead">Creamos ideas, websites y videos para que nuestros clientes muestren lo mejor de sus productos y / o servicios.</p>
         </Col>
         <Col lg={6}>
           <img src="http://www.rummore.com.ve/wp-content/themes/rummore/img/compus.gif" alt="Rummore" className="img-fluid"/>

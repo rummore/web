@@ -109,7 +109,8 @@ footer {
   min-height: 75vh;
 }
 .proyectos .col-lg-4 {
- padding:0 !important 
+ padding:0 !important; 
+ margin-bottom:20px;
 }
 
 .proyectos h2 {

@@ -21,11 +21,8 @@ export default function Contato() {
         </Form.Group>
 
         <Form.Group controlId="formEmail">
-          <Form.Label>Email address</Form.Label>
+          <Form.Label>Email</Form.Label>
           <Form.Control type="email"  />
-          {/* <Form.Text className="text-muted">
-            Esta información no será compartida con nadie.
-          </Form.Text> */}
         </Form.Group>
 
         <Form.Group controlId="exampleForm.ControlTextarea1">
