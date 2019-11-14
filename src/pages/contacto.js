@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from '../components/layout';
 import {Form, Button, Container, Col, Row} from 'react-bootstrap';
+import SEO from "../components/seo"
 
 export default function Contato() {
   return (
     <Layout>
+      <SEO title="Contacto" />
     <h3 className="text-center pt-5">Contacto</h3>
     <p className="text-center">Coméntanos lo que desees, queremos saber de ti.</p>
     <Container className="contacto  py-5">

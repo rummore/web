@@ -2,10 +2,12 @@ import React from 'react';
 import Layout from '../components/layout'
 import {Container ,Row, Col} from 'react-bootstrap';
 import { Link } from "gatsby"
+import SEO from "../components/seo"
 
 export default function Proyectos({data}) {
   return (
     <Layout>
+    <SEO title="Proyectos" />
     <h3 className="text-center py-5">Proyectos</h3>
     <Container className="proyectos container-fluid py-5">
         <Row>
