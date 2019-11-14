@@ -14,7 +14,7 @@ const Footer = () => (
             <p className="text-center"> @rummorepro</p>
             </Col>
             <Col lg={4}>
-            <p className="text-center">teléfono: +34682081</p>
+            <p className="text-center">teléfono: +34682081401</p>
             </Col>
         </Row>
     </Container>
