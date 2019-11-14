@@ -17,17 +17,17 @@ export default function Contato() {
         
         <Form.Group controlId="formName">
           <Form.Label>Nombre</Form.Label>
-          <Form.Control type="input"  />
+          <Form.Control type="input"  name="nombre" id="nombre"/>
         </Form.Group>
 
         <Form.Group controlId="formEmail">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email"  />
+          <Form.Control type="email" name="email" id="email" />
         </Form.Group>
 
         <Form.Group controlId="exampleForm.ControlTextarea1">
             <Form.Label>Comentarios</Form.Label>
-            <Form.Control as="textarea" rows="3" />
+            <Form.Control as="textarea" rows="3" name="comentarios" id="comentarios" />
         </Form.Group>
         <Button variant="primary" type="submit">
           Enviar
