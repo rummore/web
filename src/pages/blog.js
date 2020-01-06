@@ -17,6 +17,7 @@ export default function Blog({data}) {
             {/* <Card.Img variant="top" src="http://holder.js/100px180" /> */}
             <Card.Body>
                 <Card.Title>{node.frontmatter.title}</Card.Title>
+                <p>{node.frontmatter.date}</p>
                 <Link to={node.fields.slug}> <Button variant="dark">Ver más</Button></Link>
             </Card.Body>
             </Card>
@@ -36,6 +37,7 @@ query MyPostsQuery {
             frontmatter {
               title
               featuredimage
+              date
             }
             fields {
               slug
