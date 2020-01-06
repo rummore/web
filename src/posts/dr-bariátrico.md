@@ -1,6 +1,6 @@
 ---
 date: 2019-11-14T21:58:33.006Z
-title: Estreno de portfolio con GatsbyJs y Netlify CMS
+title: 'Estreno de portfolio con GatsbyJs '
 featuredimage: /assets/netlifycms.jpg
 ---
 Este es mi primer sitio web realizado con GatsbyJs y la verdad que ha sido una experiencia super agradable.
