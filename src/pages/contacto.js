@@ -8,7 +8,7 @@ export default function Contato() {
     <Layout>
       <SEO title="Contacto" />
     <h3 className="text-center pt-5">Contacto</h3>
-    <p className="text-center">Coméntanos lo que desees, queremos saber de ti.</p>
+    <p className="text-center">Escríbeme lo que quieras y te responderé a la brevedad posible.</p>
     <Container className="contacto  py-5">
       <Row>
         <Col lg={3}></Col>
@@ -31,7 +31,7 @@ export default function Contato() {
             <Form.Label>Comentarios</Form.Label>
             <Form.Control as="textarea" rows="3" name="comentarios" id="comentarios" />
         </Form.Group>
-        <Button variant="primary" type="submit">
+        <Button variant="dark" type="submit">
           Enviar
         </Button>
       </Form>

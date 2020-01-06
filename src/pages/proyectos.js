@@ -33,7 +33,7 @@ export default function Proyectos({data}) {
 
 export const query = graphql`
 query MyQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/blogContent/"}}) {
       edges {
         node {
           fields {

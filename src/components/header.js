@@ -7,12 +7,12 @@ const Header = ({ siteTitle }) => (
 
 <Navbar /*bg="dark" */ expand="lg" variant="dark" className="bgdark2">
   <Container>
-  <Navbar.Brand ><Link to="/ ">{siteTitle}</Link></Navbar.Brand>
+  <Navbar.Brand ><Link to="/ " className="logo">{siteTitle}</Link></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
       <Nav.Link > <Link to="/ ">Inicio</Link></Nav.Link>
-      {/* <Nav.Link ><Link to="/ ">Nosotros</Link></Nav.Link> */}
+      <Nav.Link ><Link to="/blog">Blog</Link></Nav.Link>
       <Nav.Link ><Link to="/proyectos">Proyectos</Link></Nav.Link>
       <Nav.Link ><Link to="/contacto">Contacto</Link></Nav.Link>
     </Nav>

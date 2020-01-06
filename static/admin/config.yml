@@ -10,6 +10,17 @@ collections:
     label: Blog
     folder: src/blogContent
     create: true
+    identifier_field: blog
+    fields:
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: featuredimage, label: Featured Image, widget: image }
+      - { name: body, label: Body, widget: markdown }
+  - name: posts
+    label: Posts
+    folder: src/posts
+    create: true
+    identifier_field: posts
     fields:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }

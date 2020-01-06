@@ -8,10 +8,10 @@ const Footer = () => (
     <Container>
         <Row>
             <Col lg={4}>
-            <p className="text-center">email: rummorepro@gmail.com</p>
+            <p className="text-center">email: garban.valdeon@gmail.com</p>
             </Col>
             <Col lg={4}>
-            <p className="text-center"> @rummorepro</p>
+            <p className="text-center"> @alexeigarban</p>
             </Col>
             <Col lg={4}>
             <p className="text-center">teléfono: +34682081401</p>
