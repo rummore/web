@@ -37,7 +37,7 @@ query MyPostsQuery {
             frontmatter {
               title
               featuredimage
-              date
+              date(formatString: "MM/DD/YYYY")
             }
             fields {
               slug
