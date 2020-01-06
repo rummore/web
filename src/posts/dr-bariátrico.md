@@ -1,10 +1,10 @@
 ---
 date: 2019-11-14T21:58:33.006Z
-title: Dr Bariátrico
-featuredimage: /assets/drbariatrico0.jpg
+title: Estreno de portfolio con GatsbyJs y Netlify CMS
+featuredimage: /assets/netlifycms.jpg
 ---
-![Rummore Dr Bariatrico](/assets/drbariatrico1.png "Rummore Dr Bariatrico")
+Este es mi primer sitio web realizado con GatsbyJs y la verdad que ha sido una experiencia super agradable.
 
-Wordpress website para el Dr. Gaylor Acosta, Doctor Bariátrico
+Gatsby es una herramienta increíblemente fácil de usar y netlify cms es bastante completo  como cms. La documentación para integrar estas 2 herramientas es muy buena y en los sitios de cada uno te explican como lograrlo o los pasos que debes realizar.
 
-[www.doctorbariatrico.com](http://www.doctorbariatrico.com)
+Espero en los próximos días estar subiendo un pequeño tutorial / guía de cómo iniciar tu nuevo sitio con gatsby y netlify cms; y algo que no es usual es que será en Castellano / Español.
