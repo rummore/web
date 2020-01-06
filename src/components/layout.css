@@ -11,6 +11,11 @@ img {
 .logo {
   font-weight: 500;
 }
+
+.fecha {
+ font-size:11px;
+  color:#999
+}
 .frontSlide {
   height: 100vh;
   background-color:black;
