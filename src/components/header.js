@@ -11,10 +11,10 @@ const Header = ({ siteTitle }) => (
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link href="/">Inicio</Nav.Link>
-      <Nav.Link href="/blog">Blog</Nav.Link>
-      <Nav.Link href="/proyectos">Proyectos</Nav.Link>
-      <Nav.Link href="/contacto">Contacto</Nav.Link>
+      <Nav.Link href="#">Inicio</Nav.Link>
+      <Nav.Link href="#blog">Blog</Nav.Link>
+      <Nav.Link href="#proyectos">Proyectos</Nav.Link>
+      <Nav.Link href="#contacto">Contacto</Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>
