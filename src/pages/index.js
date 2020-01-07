@@ -11,7 +11,6 @@ const IndexPage = ({data}) => (
     <SEO title="Home" />
     <section className="frontSlide">
       <h3>Hola, soy creativo y desarrollador frontend.</h3>
-      {/* <img src="http://www.rummore.com.ve/wp-content/themes/rummore/img/intro.gif" alt="Rummore" className="img-fluid"/> */}
     </section>
     <section className="homeUs">
     <Container className="py-5">
