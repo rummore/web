@@ -66,27 +66,3 @@ export const query = graphql`
     }
   }
 `
-// query MyQuery {
-//   allMarkdownRemark {
-//     edges {
-//       node {
-//         frontmatter {
-//           title
-//           featuredimage
-//         }
-//         html
-//       }
-//     }
-//   }
-// }
-
-
-// export const query = graphql`
-//   query {
-//     site {
-//       siteMetadata {
-//         title
-//       }
-//     }
-//   }
-// `
