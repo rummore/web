@@ -10,7 +10,7 @@ const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
     <section className="frontSlide">
-      <h3>Hola, soy creativo y desarrollador frontend.</h3>
+      <h3>Hola, soy creativo y desarrollador web.</h3>
     </section>
     <section className="homeUs">
     <Container className="py-5">
