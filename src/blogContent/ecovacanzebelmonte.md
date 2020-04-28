@@ -1,6 +1,6 @@
 ---
 date: 2020-04-28T12:06:58.846Z
-title: EcovacanzeBelmonte
+title: EcoBelmonte
 featuredimage: /assets/screenpreviewecobelmonte.png
 ---
 
