@@ -19,29 +19,19 @@ Este post es sólo una introducción a una pequeña colección de videos que ir�
 
 Primero tenemos que tener la carpeta donde vamos a trabajar nuestro proyecto. Luego creamos un proyecto npm con:
 
-```
-npm init -y
-```
+`npm init -y`
 
 Uso " -y " para agilizar un poco el proceso pero pueden hacerlo sólo con npm init.
 
 Luego  con esto creado escribimos 
 
-```
-# Con npm 
-```
+`# Con npm `
 
-```
-npm install tailwindcss
-```
+`npm install tailwindcss`
 
-```
-# Con Yarn 
-```
+`# Con Yarn `
 
-```
-yarn add tailwindcss
-```
+`yarn add tailwindcss`
 
 Esto nos agrega la carpeta node_modules en nuestro proyecto y podemos abrir la carpeta con nuestro editor, luego crear un index.html y un archivo.css (en mi caso me voy por lo convencional y creo un style.css)
 
@@ -49,25 +39,17 @@ Agregar style.css al head del index.html
 
 En tu archivo .css coloca lo siguiente al inicio:
 
-```
-@tailwind base;
-```
+`@tailwind base;`
 
-```
-@tailwind components;
-```
+`@tailwind components;`
 
-```
-@tailwind utilities;
-```
+`@tailwind utilities;`
 
 Esto agrega o inyecta tailwind a tu css.
 
 Usando el CLI de Tailwind puedes hacer lo siguiente para procesar tu CSS:
 
-```
-npx tailwindcss build styles.css -o output.css
-```
+`npx tailwindcss build styles.css -o output.css`
 
 Y con este ya tenemos TailwindCss listo para comenzar a usar en nuestro proyecto.
 
