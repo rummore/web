@@ -13,31 +13,25 @@ Desde 2019 ha llegado un nuevo framework llamado TailwindCss, que hace casi lo m
 
 Este post es sólo una introducción a una pequeña colección de videos que iré montando en mi canal de youtube para mostrar cómo pasé el diseño que ven aquí abajo (muy sencillo), a un html para mostrar la información más básica del cliente pues así lo quieren.
 
-
-
 ![alexei garban tailwindcss ](/assets/nimpartsscreenshot.png "alexei garban tailwindcss ")
-
-
 
 # **Comencemos**
 
 Primero tenemos que tener la carpeta donde vamos a trabajar nuestro proyecto. Luego creamos un proyecto npm con:
 
-```
-npm init -y
-```
+`npm init -y`
 
 Uso " -y " para agilizar un poco el proceso pero pueden hacerlo sólo con npm init.
 
 Luego  con esto creado escribimos 
 
-```
-# Con npmnpm install tailwindcss
-```
+`# Con npm `
 
-```
-# Con Yarnyarn add tailwindcss
-```
+`npm install tailwindcss`
+
+`# Con Yarn `
+
+`yarn add tailwindcss`
 
 Esto nos agrega la carpeta node_modules en nuestro proyecto y podemos abrir la carpeta con nuestro editor, luego crear un index.html y un archivo.css (en mi caso me voy por lo convencional y creo un style.css)
 
@@ -45,28 +39,22 @@ Agregar style.css al head del index.html
 
 En tu archivo .css coloca lo siguiente al inicio:
 
-```
-@tailwind base;@tailwind components;@tailwind utilities;
-```
+`@tailwind base;`
+
+`@tailwind components;`
+
+`@tailwind utilities;`
 
 Esto agrega o inyecta tailwind a tu css.
 
 Usando el CLI de Tailwind puedes hacer lo siguiente para procesar tu CSS:
 
-```
-npx tailwindcss build styles.css -o output.css
-```
+`npx tailwindcss build styles.css -o output.css`
 
 Y con este ya tenemos TailwindCss listo para comenzar a usar en nuestro proyecto.
 
 Si no te gusta leer y prefieres ver (como yo), te dejo el video de mi canal de youtube
 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aGkf0j5DZKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
 
 #
